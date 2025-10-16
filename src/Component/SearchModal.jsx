@@ -30,7 +30,7 @@ function SearchModal({ isOpen, onClose }) {
         {/* Input */}
         <div className="flex items-center border border-gray-300 rounded-full px-4 py-2 mb-3">
           <img
-            src="src/assets/MagnifyingGlass.png"
+            src="/assets/MagnifyingGlass.png"
             className="w-5 h-5 mr-3 cursor-pointer"
             alt="search"
           />

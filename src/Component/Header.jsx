@@ -10,12 +10,12 @@ function Header({ location }) {
         {/* Location & Notification */}
         <div className="flex justify-between items-center sm:px-10 px-4 py-3 mb-3">
           <div className="flex items-center gap-2">
-            <img src="src/assets/Location icon.png" className="w-5 h-5" alt="location" />
+            <img src='/assets/Location Icon.png' className="w-5 h-5" alt="location" />
             <p className="text-white text-sm sm:text-base md:text-lg">
               {location[0].name}
             </p>
           </div>
-          <img src="src/assets/Frame 1890165669.png" className="w-6 sm:w-5 md:w-6" alt="notification" />
+          <img src="/assets/Frame 1890165669.png" className="w-6 sm:w-5 md:w-6" alt="notification" />
         
         </div>
         <h2 className="text-3xl font-bold  ml-10 mb-12 text-amber-50">I need help with</h2>
@@ -27,7 +27,7 @@ function Header({ location }) {
            onClick={() => setIsModalOpen(true)} 
         >
           <img
-            src="src/assets/MagnifyingGlass.png"
+            src="/assets/MagnifyingGlass.png"
             className="w-5 h-5 mr-3 cursor-pointer"
             alt="search"
           />
