@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SearchModal from "./Searchmodal";
+import SearchModal from "./SearchModal";
 import { LocationIcon, Frame,MagnifyingGlass } from "../contast";
 function Header({ location }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
