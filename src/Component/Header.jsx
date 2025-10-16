@@ -1,34 +1,47 @@
-import React from 'react';
+import React, { useState } from "react";
+import SearchModal from "./Searchmodal";
 
-function Header() {
+function Header({ location }) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
-    <header className="bg-blue-600 w-full">
+    <header className="bg-blue-600 w-full pb-8">
       <div className="container mx-auto max-w-screen-xl">
         {/* Location & Notification */}
-        <div className="locationNotif flex justify-between items-center sm:px-10  px-4 py-3">
-          <div className="location flex items-center gap-2">
+        <div className="flex justify-between items-center sm:px-10 px-4 py-3 mb-3">
+          <div className="flex items-center gap-2">
             <img src="src/assets/Location icon.png" className="w-5 h-5" alt="location" />
-            <p className="text-white text-sm sm:text-base md:text-lg">New York</p>
+            <p className="text-white text-sm sm:text-base md:text-lg">
+              {location[0].name}
+            </p>
           </div>
-          <img src="src/assets/Frame 1890165669.png" className="w-5 sm:w-5 md:w-5" alt="notification" />
+          <img src="src/assets/Frame 1890165669.png" className="w-6 sm:w-5 md:w-6" alt="notification" />
+        
         </div>
+        <h2 className="text-3xl font-bold  ml-10 mb-12 text-amber-50">I need help with</h2>
 
-        {/* Search Bar */}
-        <div className="searchbarwithtxt px-4 sm:px-10 mt-6 sm:mt-10 pb-9">
-          <h2 className="text-white font-bold mb-3 text-lg sm:text-xl md:text-2xl lg:text-3xl">
-            I need help with
-          </h2>
-          <div className="seachbar flex items-center bg-white px-3 py-2 rounded-3xl w-full sm:w-10/12 md:w-8/12 lg:w-6/12">
-            <img src="src/assets/MagnifyingGlass.png" className="w-5 h-5 mr-2" alt="search" />
-            <input
-              type="search"
-              name="search"
-              placeholder="What do you need help with"
-              className="w-full outline-none text-sm sm:text-base md:text-lg"
-            />
-          </div>
+        {/* Search bar trigger */}
+        
+        <div
+          className="flex items-center bg-white px-4 py-3 rounded-3xl w-11/12 sm:w-11/12 md:w-11/12 lg:w-11/12 mx-4 sm:mx-10 cursor-pointer"
+           onClick={() => setIsModalOpen(true)} 
+        >
+          <img
+            src="src/assets/MagnifyingGlass.png"
+            className="w-5 h-5 mr-3 cursor-pointer"
+            alt="search"
+          />
+          <input
+            type="text"
+            placeholder="What do you need help with"
+            className="w-full text-sm sm:text-base md:text-lg outline-none bg-transparent pointer-events-none"
+            readOnly
+          />
         </div>
       </div>
+
+      {/* Search Modal */}
+      <SearchModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </header>
   );
 }

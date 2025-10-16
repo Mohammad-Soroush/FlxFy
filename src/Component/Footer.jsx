@@ -1,8 +1,9 @@
-import React from 'react';
+  import React from 'react';
 
 function Footer() {
+  
   return (
-    <footer className="fixed bottom-0 left-0 w-full bg-white border border-blue-500 rounded-full sm:rounded-2xl md:rounded-2xl lg:rounded-2xl py-3">
+    <footer className="fixed bottom-4 mb-3 left-0 w-full bg-white border border-blue-500 rounded-full sm:rounded-2xl md:rounded-2xl lg:rounded-2xl py-3">
       <div className="container mx-auto max-w-screen-xl">
         <div className="footercollec flex justify-around items-center">
           <div className="home bg-blue-700 p-4 sm:p-5 rounded-full hover:bg-blue-600 active:bg-blue-400">
