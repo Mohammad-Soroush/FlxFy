@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Data from "../data/Data";
+import Data from "../data/data";
 import { MagnifyingGlass } from "../contast";
 function SearchModal({ isOpen, onClose }) {
   const [query, setQuery] = useState("");
