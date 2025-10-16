@@ -4,7 +4,7 @@ import Promo from './Component/Promotion'
 import Categories from './Component/Categories'
 import Footer from './Component/Footer'
 import Tasks from './Component/Tasks'
-import Data from './data/data'
+import Data from './data/Data'
 
 function App() {
   return (
