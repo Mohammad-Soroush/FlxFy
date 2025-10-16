@@ -4,17 +4,17 @@ import Promo from './Component/Promotion'
 import Categories from './Component/Categories'
 import Footer from './Component/Footer'
 import Tasks from './Component/Tasks'
-import data from './data/data'
+import Data from './data/Data'
 
 function App() {
   return (
     <>
       <div className="min-h-screen overflow-x-hidden">
-        <Header location={data.location}/>
+        <Header location={Data.location}/>
         <main className="mb-20">
           <div className="container mx-auto max-w-screen-xl px-4 sm:px-10">
             <Promo/>
-            <Tasks task={data.tasks}/>
+            <Tasks task={Data.tasks}/>
             <Categories/>
           </div>
         </main>

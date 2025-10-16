@@ -6,7 +6,7 @@ function Tasks({task}) {
       <div className='bg-white shadow transition hover:shadow-2xl py-10 px-6 sm:px-10 md:px-20 rounded-2xl mt-3'>
         {/* Header */}
         <div className="upcomingtask flex gap-3 items-center mb-2">
-          <img className="w-5 h-6" src='/assets/ClipboardText.png' />
+          <img className="w-5 h-6" src='src/assets/ClipboardText.png' />
           <h2 className='text-blue-600 text-lg sm:text-xl md:text-2xl'>{task[0].kinds}</h2>
         </div>
 
@@ -21,19 +21,19 @@ function Tasks({task}) {
             <div className="flex gap-5 items-center">
               {/* Date */}
               <div className="dates flex gap-1 items-center">
-                <img className='w-5' src='/assets/CalendarDots.png' />
+                <img className='w-5' src='src/assets/CalendarDots.png' />
                 <p className='text-sm sm:text-base md:text-lg'>{task[0].day} {task[0].month} {task[0].dayN}, {task[0].year}</p>
               </div>
 
               {/* Time */}
               <div className="time flex gap-1 items-center">
-                <img className="w-5" src="/assets/Vector.png" alt="" />
+                <img className="w-5" src="src/assets/Vector.png" alt="" />
                 <p className='text-sm sm:text-base md:text-lg'>11:30 AM</p>
               </div>
             </div>
 
             {/* Arrow stays at the far right */}
-            <img className='w-4 sm:w-5' src='/assets/arrow.png' />
+            <img className='w-4 sm:w-5' src='src/assets/arrow.png' />
           </div>
         </div>
       </div>
