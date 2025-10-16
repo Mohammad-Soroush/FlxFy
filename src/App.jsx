@@ -14,7 +14,7 @@ function App() {
         <main className="mb-20">
           <div className="container mx-auto max-w-screen-xl px-4 sm:px-10">
             <Promo/>
-            <Tasks task={data.Tasks}/>
+            <Tasks task={data.tasks}/>
             <Categories/>
           </div>
         </main>
