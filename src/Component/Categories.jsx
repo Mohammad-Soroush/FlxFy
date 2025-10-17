@@ -7,7 +7,7 @@ function Categories() {
 
       <div className="itemcategories grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
-          <img src={Vector} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
+          <img src={Baker} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
           <p>Home repairs</p>
         </div>
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
@@ -19,27 +19,27 @@ function Categories() {
           <p>Fixing</p>
         </div>
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
-          <img src={Vector} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
+          <img src={Baker} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
           <p>Repairs</p>
         </div>
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
-          <img src={Vector} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
+          <img src={Baker} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
           <p>Plumbing</p>
         </div>
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
-          <img src={Vector} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
+          <img src={Baker} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
           <p>Electric</p>
         </div>
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
-          <img src={Vector} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
+          <img src={Baker} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
           <p>Carpentry</p>
         </div>
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
-          <img src={Vector} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
+          <img src={Baker} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
           <p>Painting</p>
         </div>
         <div className="Homerepairs bg-white p-4 rounded-xl text-center shadow-sm hover:shadow-md transition">
-          <img src={Vector} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
+          <img src={Baker} alt="" className="w-12 mx-auto mb-2 max-w-full h-auto" />
           <p>Painting</p>
         </div>
       </div>

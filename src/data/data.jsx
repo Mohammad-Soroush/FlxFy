@@ -1,44 +1,44 @@
-// src/data/data.js
+import { Baker,Foto4,Foto1 } from "../contast";
 const Data = {
   categories: [
     {
       name: "Home repairs",
-      icon: "src/assets/Categories/Vector.png",
+      icon: Baker,
       description: "Fix issues in your home quickly and affordably."
     },
     {
       name: "Baking",
-      icon: "src/assets/Categories/Baker.png",
+      icon: Baker,
       description: "Professional baking services for events and daily needs."
     },
     {
       name: "Fixing",
-      icon: "src/assets/Categories/Fixer.png",
+      icon: Baker,
       description: "General fixing for appliances and furniture."
     },
     {
       name: "Repairs",
-      icon: "src/assets/Categories/Vector.png",
+      icon: Baker,
       description: "Repair services for various household items."
     },
     {
       name: "Plumbing",
-      icon: "src/assets/Categories/Vector.png",
+      icon: Baker,
       description: "Expert plumbing solutions for leaks and installations."
     },
     {
       name: "Electric",
-      icon: "src/assets/Categories/Vector.png",
+      icon: Foto4,
       description: "Electrical repairs and wiring services."
     },
     {
       name: "Carpentry",
-      icon: "src/assets/Categories/Vector.png",
+      icon: Foto4,
       description: "Custom carpentry and woodwork projects."
     },
     {
       name: "Painting",
-      icon: "src/assets/Categories/Vector.png",
+      icon: Foto1,
       description: "Professional painting for interiors and exteriors."
     }
   ],
