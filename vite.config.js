@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
       tailwindcss(),
   ],
-  base:'/FlexFy/',
+ base:"/FlxFy/",
 })
