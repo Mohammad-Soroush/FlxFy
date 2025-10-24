@@ -1,5 +1,5 @@
   import React from 'react';
-import { House, Todolist, User} from '../contast';
+import { House, Todolist, User} from '../assetsJS';
 
 function Footer() {
   

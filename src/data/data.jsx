@@ -1,4 +1,4 @@
-import { Baker,Foto4,Foto1 } from "../contast";
+import { Baker,Foto4,Foto1, Foto2 } from "../assetsJS";
 const Data = {
   categories: [
     {
@@ -37,10 +37,16 @@ const Data = {
       description: "Custom carpentry and woodwork projects."
     },
     {
-      name: "Painting",
+      name: "TV mounting",
       icon: Foto1,
-      description: "Professional painting for interiors and exteriors."
+      description: "Mounting"
+    },
+    {
+      name: "Shelf mounting",
+      icon: Foto2,
+      description: "Mounting"
     }
+    
   ],
   location: [
     {

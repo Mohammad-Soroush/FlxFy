@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SearchModal from "./SearchModal";
-import { LocationIcon, Frame,MagnifyingGlass } from "../contast";
+import { LocationIcon, Frame,MagnifyingGlass } from "../assetsJS";
 function Header({ location }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -18,7 +18,7 @@ function Header({ location }) {
           <img src={Frame} className="w-6 sm:w-5 md:w-6" alt="notification" />
         
         </div>
-        <h2 className="text-3xl font-bold  ml-10 mb-12 text-amber-50">I need help with</h2>
+        <h2 className="text-3xl font-bold  ml-5 sm:ml-10 md:ml-10 mb-12 text-amber-50">I need help with</h2>
 
         {/* Search bar trigger */}
         

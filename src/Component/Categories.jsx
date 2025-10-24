@@ -1,5 +1,5 @@
 import React from 'react';
-import { Vector, Baker, Fixer, } from '../contast';
+import { Vector, Baker, Fixer, } from '../assetsJS';
 function Categories() {
   return (
     <div className="categories mt-10 mb-72">

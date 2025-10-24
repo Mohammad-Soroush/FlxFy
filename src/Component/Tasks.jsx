@@ -1,5 +1,5 @@
 import React from 'react'
-import { ClipboardText,CalendarDots,Vector,Arrow } from '../contast'
+import { ClipboardText,CalendarDots,Vector,Arrow } from '../assetsJS'
 function Tasks({task}) {
   return (
     <>
