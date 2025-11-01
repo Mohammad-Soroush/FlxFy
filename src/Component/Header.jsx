@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import SearchModal from "./SearchModal";
 import { LocationIcon, Frame,MagnifyingGlass } from "../assetsJS";
+import { useUserContext } from "../userContext/Usercontext";
 function Header({ location }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+  const{data} = useUserContext();
+  
   return (
     <header className="bg-blue-600 w-full pb-8">
       <div className="container mx-auto max-w-screen-xl">
@@ -12,7 +14,7 @@ function Header({ location }) {
           <div className="flex items-center gap-2">
             <img src={LocationIcon} className="w-5 h-5" alt="location" />
             <p className="text-white text-sm sm:text-base md:text-lg">
-              {location[0].name}
+              {data.data[0].Ctiy_name},{data.data[0].location_type}  
             </p>
           </div>
           <img src={Frame} className="w-6 sm:w-5 md:w-6" alt="notification" />

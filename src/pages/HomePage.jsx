@@ -5,7 +5,10 @@ import Tasks from '../Component/Tasks'
 import Categories from '../Component/Categories'
 import Footer from '../Component/Footer'
 import Data from '../data/data'
+import { useUserContext } from '../userContext/Usercontext'
 function HomePage() {
+  const{data} = useUserContext();
+  console.log()
   return (
     <>
     <div className="min-h-screen overflow-x-hidden">
