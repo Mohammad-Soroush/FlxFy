@@ -7,8 +7,7 @@ import Footer from '../Component/Footer'
 import Data from '../data/data'
 import { useUserContext } from '../userContext/Usercontext'
 function HomePage() {
-  const{data} = useUserContext();
-  console.log()
+  const{data} = useUserContext();   
   return (
     <>
     <div className="min-h-screen overflow-x-hidden">

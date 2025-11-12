@@ -12,12 +12,10 @@ const FetchData = async() =>{
     try{
         setIsloading(true);
         setError(null);
-        
-        // send a request with axios
         const response = await axios.get(url,{signal: controller.signal, headers:{Accept:"application/json"}});
         setData(response.data)
     }catch(err){
-        // cancle the request
+        
         if(axios.isCancel(err))return;
         setError(err.response?.data?.message || err.message || "Something went wrong");
     }finally{
