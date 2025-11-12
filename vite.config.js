@@ -109,5 +109,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/FlxFy/'
+  base: '/'
 })
