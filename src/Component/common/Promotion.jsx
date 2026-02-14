@@ -1,5 +1,5 @@
 import React from 'react';
-import { BannerImage, GiftIcon } from '../assetsJS';
+import { BannerImage, GiftIcon } from '../../assetsJS';
 function Promo() {
   return (
     <div className="promot flex flex-row-reverse sm:flex-row-reverse bg-cyan-50 items-center rounded-2xl p-4 sm:p-6 gap-9 sm:gap-10 md:gap-18">
